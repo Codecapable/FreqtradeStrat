@@ -1,0 +1,31 @@
+{
+  "strategy_name": "SmaCrossStrat",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_quick_sma": 35,
+      "buy_slow_sma": 57
+    },
+    "sell": {
+      "sell_quick_sma": 55,
+      "sell_slow_sma": 29
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.121,
+      "287": 0.068,
+      "875": 0.029,
+      "1669": 0
+    },
+    "stoploss": {
+      "stoploss": -0.348
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-02-01 22:46:47.568780+00:00"
+}

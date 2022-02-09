@@ -1,0 +1,29 @@
+{
+  "strategy_name": "SampleStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_rsi": 15
+    },
+    "sell": {
+      "sell_rsi": 74
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.42200000000000004,
+      "135": 0.219,
+      "851": 0.063,
+      "1734": 0
+    },
+    "stoploss": {
+      "stoploss": -0.169
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-01-31 18:51:32.111106+00:00"
+}
